@@ -1,0 +1,11 @@
+.select {
+  width: 150px;
+  font-family: 'Fira Code Retina', Consolas, monospace, Arial;
+  margin: 0 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

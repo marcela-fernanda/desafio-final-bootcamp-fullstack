@@ -1,0 +1,62 @@
+.modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  overflow: auto;
+  border-radius: 4px;
+  outline: currentcolor none medium;
+  padding: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.divHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divForm {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.divRadioButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.labelRadioButton {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.outgoing {
+  color: rgb(192, 57, 43);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.income {
+  color: rgb(39, 174, 96);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.value {
+  margin-right: 10px;
+}

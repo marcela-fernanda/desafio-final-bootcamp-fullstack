@@ -1,0 +1,22 @@
+.mainDiv {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px 5px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.strongItems span strong {
+  font-weight: bold;
+}
+
+.income {
+  color: rgb(22, 160, 133);
+}
+
+.outgoing {
+  color: rgb(192, 57, 43);
+}
